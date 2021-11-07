@@ -69,7 +69,7 @@ I created 2 API servers to show how easy it is to move from framework server to 
 ### Can you do better?
 Always, its just depends on time frame and motivation,<br />
 If you want to take a look at recent project that im working on (without the source code :see_no_evil: )<br />
-Please visit [mimiplan.com](mimiplan.com "mimiplan.com")
+Please visit [mimiplan.com](https://mimiplan.com/ "mimiplan.com")
 
 
 
