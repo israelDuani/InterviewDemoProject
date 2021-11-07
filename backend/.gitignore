@@ -1,0 +1,8 @@
+WorkersServerCoreApi/obj/*
+WorkersServerCoreApi/bin/*
+WorkerServerFrameworkApi/obj/*
+WorkerServerFrameworkApi/bin/*
+BaseLogic/obj/*
+BaseLogic/bin/*
+BasicLogic.Tests/obj/*
+BasicLogic.Tests/bin/*

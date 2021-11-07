@@ -1,0 +1,33 @@
+version: "3.3"
+services:
+  frontend:
+    build: frontend
+    container_name: frontend
+    ports:
+      - "80:80"
+  backend:
+    build: backend
+    container_name: backend
+    ports:
+      - "33862:80"
+  mongo:
+    image: mongo
+    container_name: db-mongo
+    ports: 
+      - "27017:27017"
+    volumes:
+      - ./mongo-data:/data/db
+  mysql:
+    image: mysql:5.7
+    container_name: db-mysql
+    volumes:
+      - ./mysql-data:/var/lib/mysql
+    ports: 
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 'redhat'
+      MYSQL_USER: 'admin'
+      MYSQL_PASSWORD: 'admin-password'
+      MYSQL_DATABASE: 'mydb'
+
+
