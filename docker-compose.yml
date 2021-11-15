@@ -10,6 +10,8 @@ services:
     container_name: backend
     ports:
       - "33862:80"
+    environment:
+      IsDocker: 'true'
   mongo:
     image: mongo
     container_name: db-mongo
